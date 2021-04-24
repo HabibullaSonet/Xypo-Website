@@ -39,6 +39,38 @@
     </nav>
     <img src="/images/menu.png" id="menuBtn">
 
+    <!-- ============= -->
+    <!-- About Section -->
+    <!-- ============= -->
+
+    <section id="about">
+        <div class="about-left-col">
+            <img src="/images/about.png" alt="">
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <h1>About Us</h1>
+                <span class="square"></span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur illum officiis natus amet ratione voluptatibus, provident perferendis ducimus nesciunt eveniet sed reiciendis doloribus recusandae minima, inventore quisquam labore beatae, quis vero quaerat nemo ipsam voluptate consequatur. Iure eaque cupiditate at ullam, in illo veritatis velit dolorum ratione rerum nostrum fuga.
+                </p><br><br>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+                <h2>Learning is not attained by change, it must be sought for with ardor and attended to with diligence</h2>
+                <h3>----Abigail Adams</h3>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
 
 
 
@@ -49,11 +81,11 @@
         var sideNav = document.getElementById("sideNav");
 
         sideNav.style.right = "-250px";
-        menuBtn.onclick = function(){
-            if(sideNav.style.right == "-250px"){
+        menuBtn.onclick = function () {
+            if (sideNav.style.right == "-250px") {
                 sideNav.style.right = "0";
             }
-            else{
+            else {
                 sideNav.style.right = "-250px";
             }
         }
