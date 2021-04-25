@@ -138,8 +138,7 @@ nav ul li a{
 /*========*/
 
 #features{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin: 50px 0 50px 0;
 }
 .features-row{
     width: 80%;
@@ -171,4 +170,31 @@ nav ul li a{
     text-align: right;
     display: inline-block;
     margin-right: 25px;
+}
+/*========*/
+/*Courses*/
+/*========*/
+
+#courses{
+    padding: 100px 0;
+}
+.course-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.course-right-col{
+    flex-basis: 50%;
+}
+.course-right-col img{
+    width: 100%;
+}
+.course-left-col{
+    flex-basis: 50%;
+}
+.course-text{
+    max-width: 350px;
+}
+.course-text button{
+    margin: 30px 0;
 }
